@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    background-image: url('../img/b_coffee.jpg');
+    background-size: cover;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divs-center {
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/b_thumbs.png');
+    padding: 15px;
+    background-size: 100%;
+}
+
+.mg-5 {
+    margin: 5px;
+}
+
+.mg-left-right-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.card {
+    width: 300px;
+    margin: 15px;
+}
+
+.card img {
+    margin-right: 6px;
+}
+
+.text {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: Arial sans-serif;
+    color: green;
+    text-align: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.float-left {
+    float: left;
+}
+
+li {
+    text-align: left;
+    list-style: none;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.date h3 {
+    text-align: left;
+    margin-left: 50px;
+    border: dotted;
+    float: left;
+    padding: 5px;
+    color: green;
+}
+
+.date p {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+.footer p {
+    color: green;
+    margin: 8px;
+}
+
+.f-1 {
+    order: 1;
+}
+
+.f-2 {
+    order: 2;
+}
+
+.about-content {
+    display: flex;
+}
+
+.ab-div {
+    margin: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.container p {
+    margin: 9px;
+    font-size: 19px;
+}
+
+.section-1 {
+    width: 35%;
+}
+
+.section-2 {
+    width: 60%;
+}
+
+.line-1 {
+    width: 50%;
+}
+
+.line-2 {
+    width: 50%;
+}
+
+.about-content h2 {
+    color: green;
+    text-decoration: underline;
+    margin-bottom: 2px;
+    font-size: 22px;
+}
+
+.about-content h3 {
+    margin-top: 2px;
+}
+
+.sidebar {
+    width: 30%;
+    border-right: 1px black dotted;
+}
+
+.portfolio-content {
+    width: 70%;
+    margin: 20px;
+
+}
+
+.portfolio-container {
+    display: flex;
+    padding-top: 20px;
+    margin: auto;
+    width: 95%;
+    border-top: 1px black dotted;
+}
+
+.sidebar-a {
+    color: green;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.portfolio-content a {
+    color: black;
+}
+
+.portfolio-slide {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    margin-left: 9px;
+}
+
+.m-bottom {
+    margin-bottom: 10px
+}
+
+.m-top {
+    margin-top: 20px;
+}
+
+.portfolio-content-right {
+    order: 1;
+}
+
+.portfolio-content-left {
+    order: 2;
+}
+
+.services-content-1 {
+    width: 70%;
+}
+
+.services-content-2 {
+    width: 30%;
+}
+
+.flex {
+    display: flex;
+}
+
+.services-cards {
+    text-align: center;
+}
+
+.contact-content-1 {
+    width: 70%;
+}
+
+.contact-content-2 {
+    width: 30%;
+}
+
+.contact-container {
+    margin-top: 30px;
+    border-top: 1px dotted black;
+    width: 90%;
+    border-width: 2px;
+    margin: auto;
+}
+
+.colour-1 {
+    color: #5fa46d;
+}
+
+.colour-2 {
+    color: #d68a2a;
+}
+
+.contact-input {
+    width: 90%;
+    margin: auto;
+}
+
+.input {
+    width: 29%;
+    border: 2px dotted #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #e9e3d3;
+    padding: 12px 20px 12px 12px;
+}
+
+.input-2 {
+    margin-top: 10px;
+    width:96%;
+    height: 100px;
+    border: 2px dotted #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #e9e3d3;
+    padding: 12px 20px 12px 12px;
+}
+.sent{
+    justify-content: space-between;
+    display:flex;
+}
+.right{
+    margin: 15px 100px 0px 0px;
+    order: 2;
+}
